@@ -1,0 +1,415 @@
+body {
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #172559;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    background-color: #747C9C;
+    height: 60px;
+    width: 100%;
+    position: static;
+}
+
+.cont-titulo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.div-titulo {
+    width: 25%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.div-buttons-nav {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-button {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.div-button a button {
+    height: 100%;
+    width: 100%;
+    background-color: #4c52700c;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.div-button button:hover {
+    background-color: #0FBD49;
+    color: white;
+}
+
+.div-button-demo {
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.button-demo {
+    background: #0FBD49;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button-demo:hover {
+    background: #7C3AED;
+
+}
+
+.div-main {
+    padding: 30px;
+    display: flex;
+    justify-content: justify;
+    width: 100%;
+    height: (100vh - 60px);
+    box-sizing: border-box;
+}
+
+.div-main-content-anunciado {
+    width: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.div-main-content-anunciado h1 {
+    line-height: 60px;
+}
+
+.div-main-titulo {
+    font-size: 65px;
+}
+
+.text-titulo {
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d5d6d8;
+}
+
+.button-solicitud-demostracion {
+    margin-top: 20px;
+    background: #5211D4;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.div-main-content-img {
+    width: 50%;
+}
+
+.imagen-runion {
+    width: 100%;
+    height: auto;
+}
+
+.div-servicios {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.titulo-servicios {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.subtitulo-servicios {
+    text-align: center;
+    font-size: 18px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+
+.div-targets {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.target {
+    width: 20%;
+    height: 330px;
+    border: #172559 solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tag-icono {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #172559;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-escudo,
+.icono-balanza {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.tag-titulo {
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+}
+
+.tag-descripcion {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: none;
+    font-size: 13, 5px;
+    color: #16161b;
+}
+
+.div-button-mas {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: end;
+}
+
+.button-mas {
+    background: #0FBD49;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+}
+
+.div-actualizaciones {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.titulo-actualizaciones {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.subtitulo-actualizaciones {
+    text-align: center;
+    font-size: 18px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+
+.div-targets-actualizaciones {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.target-actualizaciones {
+    width: 30%;
+    height: 400px;
+    border: #dadee9 solid 1px;
+}
+
+.actualizacion-div-image {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border: #16161b solid 1px;
+}
+
+.actualizacion-tag-titulo {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.actualizacion-tag-descripcion {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: #747C9C;
+}
+
+.act-div-link-mas {
+    height: 25%;
+    width: 100%;
+    color: #5211D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-main-potenciadaIA {
+    padding: 30px;
+    display: flex;
+    justify-content: justify;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.div-content-anunciado-pontenciadaIA {
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.titulo-potenciadaIA {
+    font-size: 40px;
+}
+
+.subtitulo-potenciadaIA {
+    font-size: 17px;
+}
+
+.div-pontenciadaIA-content-img {
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.div-beneficios {
+    width: 100%;
+    height: 60vh;
+    background-color: #E5E7EB;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.titulo-beneficios {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.div-porcentajes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.div-porcentaje {
+    width: 20%;
+    padding: 10px;
+}
+
+.numero-porcentaje {
+    text-align: center;
+    color: #5211D4;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.numero-porcentaje:hover {
+    color: #0FBD49;
+    transform: scale(1.05);
+}
+
+.subtitulo-porcentaje {
+    padding-inline-start: 5;
+    text-align: center;
+}
+
+.div-formulario-demostracion {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.presentacion {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.titulo-formulario {
+    font-size: 45px;
+}
+
+.subtitulo-formulario {
+    font-size: 18px;
+    color: #555555;
+}
+
+.div-formulario {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 60%;
+    height: 100%;
+    background-color: #172559;
+}
+
+.sec-primero{
+    display: flex;
+    padding-top: 20px;
+}
+
+.sec-segundo{
+    padding-top: 20px;
+}
+
+.formulario input{
+    display: block;
+}
