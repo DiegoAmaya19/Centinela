@@ -439,3 +439,46 @@ body {
     width: 150px;
     height: 41px;
 }
+
+.div-end{
+    width: 100%;
+    height: 45vh;
+    color: #dadee9;
+}
+
+.div-end-contenedores{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.div-iconos-redes{
+    display: flex;
+    align-items: center;
+}
+
+.icono-redes{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.content{
+    width: 20%;
+}
+
+.linea{
+    height: 1px;
+    width: 95%;
+}
+
+.footer{
+    text-align: center;
+    color: #d5d6d8;
+    font-size: 17px;
+    padding: 25px;
+}
