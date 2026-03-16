@@ -24,6 +24,17 @@ body {
     text-align: center;
 }
 
+.div-escudo{
+    width: 5%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.img-escudo{
+    width: 60%;
+    height: 60%;
+}
+
 .div-titulo {
     width: 25%;
     color: white;
@@ -68,7 +79,7 @@ body {
 }
 
 .div-button-demo {
-    width: 43%;
+    width: 37%;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -118,7 +129,7 @@ body {
 
 .button-solicitud-demostracion {
     margin-top: 20px;
-    background: #5211D4;
+    background: #0FBD49;
     padding: 15px 30px;
     border: none;
     color: white;
@@ -278,8 +289,6 @@ body {
     height: 150px;
 }
 
-
-
 .actualizacion-tag-titulo {
     font-size: 15px;
     font-weight: bold;
@@ -297,7 +306,7 @@ body {
 .act-div-link-mas {
     height: 25%;
     width: 100%;
-    color: #5211D4;
+    color: #172559;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,6 +334,16 @@ body {
 
 .subtitulo-potenciadaIA {
     font-size: 17px;
+}
+
+.button-generar-reporte {
+    margin-top: 20px;
+    background: #172559;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .div-pontenciadaIA-content-img {
@@ -361,7 +380,7 @@ body {
 
 .numero-porcentaje {
     text-align: center;
-    color: #5211D4;
+    color: #172559;
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
@@ -454,7 +473,7 @@ body {
 }
 
 .button-enviar {
-    background: #5211D4;
+    background: #0FBD49;
     border: none;
     color: white;
     cursor: pointer;
@@ -539,7 +558,7 @@ body {
 
 .icono-email {
     bottom: 110px;
-    background-color: #5211D4;
+    background-color: #0FBD49;
 }
 
 .icono-email:hover {
@@ -580,6 +599,13 @@ body {
 
     .cont-titulo {
         flex-direction: column;
+    }
+
+    .div-escudo{
+        width: 100px;
+        height: 100PX;
+        padding: 0;
+        margin: 0;
     }
 
     .div-titulo,
