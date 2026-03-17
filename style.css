@@ -26,13 +26,13 @@ body {
     text-align: center;
 }
 
-.div-escudo{
+.div-escudo {
     width: 5%;
     height: auto;
     padding-left: 15px;
 }
 
-.img-escudo{
+.img-escudo {
     width: 60%;
     height: 60%;
 }
@@ -152,30 +152,47 @@ body {
 
 .div-servicios {
     background-color: aliceblue;
-    width: 100%;
     min-height: 100vh;
+    width: 100%;
     box-sizing: border-box;
 }
 
+.div-titulos-servicios {
+    width: 100%;
+    height: 35vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .titulo-servicios {
-    text-align: center;
-    font-size: 36px;
+    height: 60%;
+    font-size: 3rem;
     font-weight: bold;
-    padding: 20px;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .subtitulo-servicios {
-    text-align: center;
+    height: 40%;
     font-size: 18px;
     color: #555555;
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .div-targets {
     background-color: aliceblue;
     width: 100%;
-    min-height: 100vh;
+    min-height: 65vh;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -247,6 +264,13 @@ body {
     min-height: 100vh;
 }
 
+.div-titulos-actualizaciones {
+    width: 100%;
+    height: 35vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .titulo-actualizaciones {
     text-align: center;
     font-size: 36px;
@@ -263,7 +287,7 @@ body {
 
 .div-targets-actualizaciones {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
@@ -276,8 +300,8 @@ body {
 }
 
 .actualizacion-div-image {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 100px;
     background-color: #0FBD49;
     display: flex;
     align-items: center;
@@ -290,8 +314,8 @@ body {
 .img-global,
 .img-inteligencia-artificial,
 .img-alianza {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 .actualizacion-tag-titulo {
@@ -607,7 +631,7 @@ body {
         flex-direction: column;
     }
 
-    .div-escudo{
+    .div-escudo {
         width: 100px;
         height: 100PX;
         padding: 0;
@@ -713,7 +737,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
 
     .div-main-content-anunciado,
     .div-main-content-img {
@@ -730,7 +754,7 @@ body {
         margin-bottom: 20px;
     }
 
-    .tag-titulo{
+    .tag-titulo {
         height: auto;
     }
 
@@ -871,7 +895,7 @@ body {
         bottom: 40px;
         right: 35px;
     }
-}
+} */
 
 @media (max-width: 1080px) {
     /* Ajustes para pantallas 1080x1920 (vertical) */
