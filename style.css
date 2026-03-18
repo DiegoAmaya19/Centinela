@@ -33,8 +33,8 @@ body {
 }
 
 .img-escudo {
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
 }
 
 .div-titulo {
@@ -66,13 +66,14 @@ body {
     text-decoration: none;
 }
 
-.div-button a button {
+.div-button button {
     height: 100%;
     width: 100%;
     background-color: #4c52700c;
     border: none;
     cursor: pointer;
     color: white;
+    font-size: 16px;
 }
 
 .div-button button:hover {
@@ -85,11 +86,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
-
 }
 
 .button-demo {
     background: #0FBD49;
+    font-size: 15px;
     padding: 10px;
     border: none;
     color: white;
@@ -116,23 +117,29 @@ body {
 }
 
 .div-main-content-anunciado h1 {
-    line-height: 60px;
-}
-
-.div-main-titulo {
-    font-size: 65px;
+    display: flex;
+    align-items: center;
+    min-height: 25%;
+    line-height: 75px;
+    font-size: 75px;
+    text-align: start;
 }
 
 .text-titulo {
+    min-height: 25%;
+    display: flex;
+    align-items: center;
     font-size: 26px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #d5d6d8;
+    padding-left: 30px;
 }
 
 .button-solicitud-demostracion {
     margin-top: 20px;
+    margin-left: 30px;
     background: #0FBD49;
-    padding: 15px 30px;
+    padding: 25px 30px;
     border: none;
     color: white;
     cursor: pointer;
@@ -143,6 +150,9 @@ body {
     width: 50%;
     padding: 30px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen-runion {
