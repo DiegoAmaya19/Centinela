@@ -103,39 +103,56 @@ body {
 
 .div-main {
     padding: 60px 30px 30px 30px;
-    box-sizing: border-box;
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: justify;
+    box-sizing: border-box;
 }
 
 .div-main-content-anunciado {
     width: 50%;
     color: white;
     padding: 10px;
+    height: 100%;
 }
 
-.div-main-content-anunciado h1 {
+.div-main-titulo {
     display: flex;
     align-items: center;
-    min-height: 25%;
-    line-height: 75px;
-    font-size: 75px;
+    padding: 10px;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.h1-titulo {
+    line-height: 65px;
+    font-size: 4rem;
+    font-family: "font-family: 'Montserrat', sans-serif";
+    font-weight: 700;
     text-align: start;
+    margin: 0;
 }
 
-.text-titulo {
-    min-height: 25%;
-    display: flex;
-    align-items: center;
-    font-size: 26px;
+.div-text-parrafo {
+    padding: 10px;
+    min-height: 30%;
+    box-sizing: border-box;
+}
+
+.p-parrafo {
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #d5d6d8;
+    text-align: start;
     padding-left: 30px;
 }
 
+.div-button-solicitud-demostracion {
+    height: 20%;
+}
+
 .button-solicitud-demostracion {
+    text-transform: uppercase;
     margin-top: 20px;
     margin-left: 30px;
     background: #0FBD49;
@@ -147,12 +164,13 @@ body {
 }
 
 .div-main-content-img {
-    width: 50%;
-    padding: 30px;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .imagen-runion {
@@ -657,11 +675,11 @@ body {
         text-align: center;
     }
 
-    .div-main {
-        /* flex-direction: column; */
+    /* .div-main {
+        flex-direction: column;
         height: 100vh;
-        /* padding: 80px 15px 20px; */
-    }
+        padding: 200px 15px 20px;
+    } */
 
     .div-main-content-anunciado,
     .div-main-content-img {
@@ -744,6 +762,23 @@ body {
         width: 50px;
         height: 50px;
         right: 35px;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .h1-titulo {
+        line-height: 85px;
+        font-size: 6rem;
+    }
+
+    .p-parrafo {
+        font-size: 2rem;
+        padding-right: 30px;
+    }
+
+    .button-solicitud-demostracion {
+        font-size: 16px;
     }
 }
 
