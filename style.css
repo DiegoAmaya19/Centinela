@@ -18,7 +18,7 @@ body {
     position: fixed;
 }
 
-.cont-titulo {
+.cont-div-nav {
     height: 100%;
     width: 100%;
     display: flex;
@@ -73,7 +73,7 @@ body {
     border: none;
     cursor: pointer;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .div-button button:hover {
@@ -103,11 +103,11 @@ body {
 
 .div-main {
     padding: 60px 30px 30px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: justify;
-    width: 100%;
-    min-height: 100vh;
-    box-sizing: border-box;
 }
 
 .div-main-content-anunciado {
@@ -658,16 +658,16 @@ body {
     }
 
     .div-main {
-        flex-direction: column;
-        height: auto;
-        padding: 80px 15px 20px;
+        /* flex-direction: column; */
+        height: 100vh;
+        /* padding: 80px 15px 20px; */
     }
 
     .div-main-content-anunciado,
     .div-main-content-img {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
     }
 
     .div-main-titulo {
