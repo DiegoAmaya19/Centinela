@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -193,7 +197,7 @@ body {
 }
 
 .titulo-servicios {
-    height: 60%;
+    height: 65%;
     font-size: 3rem;
     font-weight: bold;
     display: flex;
@@ -772,16 +776,38 @@ body {
         padding-right: 30px;
     }
 
+    .div-servicios{
+        height: 100vh;
+    }
+
+    .div-titulos-servicios{
+        height: 35%;
+        box-sizing: border-box;
+    }
+
     .button-solicitud-demostracion {
         font-size: 16px;
     }
 
     .titulo-servicios {
+        padding: 0;
         font-size: 5rem;
     }
 
     .subtitulo-servicios {
+        padding: 0;
         font-size: 1.5rem;
+    }
+    .div-targets{
+        height: 65%;
+        box-sizing: border-box;
+    }
+
+    .target {
+        width: 22%;
+        height: 100%;
+        border: #172559 solid 1px;
+        border-radius: 5px;
     }
 
 }
