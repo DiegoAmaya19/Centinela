@@ -9,10 +9,8 @@ body {
     max-height: 1920px;
     overflow-y: auto;
     border: 0;
-    margin: 0;
     padding: 0;
     background-color: #172559;
-    box-sizing: border-box;
 }
 
 .nav {
@@ -111,7 +109,6 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    box-sizing: border-box;
 }
 
 .div-main-content-anunciado {
@@ -126,7 +123,6 @@ body {
     align-items: center;
     padding: 10px;
     height: 50%;
-    box-sizing: border-box;
 }
 
 .h1-titulo {
@@ -141,7 +137,6 @@ body {
 .div-text-parrafo {
     padding: 10px;
     min-height: 30%;
-    box-sizing: border-box;
 }
 
 .p-parrafo {
@@ -175,7 +170,6 @@ body {
     width: 50%;
     height: 100%;
     padding: 15px;
-    box-sizing: border-box;
 }
 
 .imagen-runion {
@@ -192,7 +186,6 @@ body {
 .div-titulos-servicios {
     width: 100%;
     height: 35%;
-    margin: 0;
 }
 
 .titulo-servicios {
@@ -204,7 +197,6 @@ body {
     padding-top: 7%;
     padding-bottom: 20px;
     justify-content: center;
-    box-sizing: border-box;
 }
 
 .subtitulo-servicios {
@@ -214,8 +206,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    margin: 0;
 }
 
 .div-targets {
@@ -316,84 +306,107 @@ body {
 }
 
 .div-actualizaciones {
-    display: block;
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-color: aliceblue;
-    box-sizing: border-box;
-    min-height: 100vh;
 }
 
 .div-titulos-actualizaciones {
     width: 100%;
-    height: 35vh;
-    padding: 20px;
-    box-sizing: border-box;
+    height: 35%;
 }
 
 .titulo-actualizaciones {
-    text-align: center;
-    font-size: 36px;
+    height: 85%;
+    font-size: 3rem;
     font-weight: bold;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 
 .subtitulo-actualizaciones {
-    text-align: center;
+    height: 15%;
     font-size: 18px;
     color: #555555;
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div-targets-actualizaciones {
     width: 100%;
-    height: 65vh;
+    height: 65%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    box-sizing: border-box;
 }
 
-.target-actualizaciones {
+.target-actualizacion {
+    border-radius: 5px;
     width: 30%;
-    height: 50%;
-    border: #dadee9 solid 1px;
+    height: 75%;
+    padding: 10px;
+    border: #5681f9 solid 1px;
+    border-radius: 5px;
 }
 
-.actualizacion-div-image {
+.div-icon-tag-actualizacion {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image-actualizacion-back {
     width: 100px;
     height: 100px;
     background-color: #0FBD49;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 50%;
 }
 
-.img-global,
-.img-inteligencia-artificial,
-.img-alianza {
+.icon-target-actualizacion {
     width: 70%;
     height: 70%;
 }
 
-.actualizacion-tag-titulo {
+.div-title-actualizacion {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-actualizacion {
     font-size: 15px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     padding-left: 10px;
 }
 
-.actualizacion-tag-descripcion {
+.div-description-actualizacion{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-actualizacion {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     color: #747C9C;
 }
 
-.act-div-link-mas {
-    height: 25%;
+.div-link-mas {
+    height: 15%;
     width: 100%;
     color: #172559;
     display: flex;
@@ -409,7 +422,6 @@ body {
     height: 100vh;
     min-height: 100vh;
     background-color: aliceblue;
-    box-sizing: border-box;
 }
 
 .div-content-anunciado-pontenciadaIA {
@@ -446,14 +458,12 @@ body {
     width: 100%;
     height: 60vh;
     background-color: #E5E7EB;
-    box-sizing: border-box;
     padding: 10px;
 }
 
 .titulo-beneficios {
     text-align: center;
     padding-top: 100px;
-    margin: 0;
 }
 
 .div-porcentajes {
@@ -491,7 +501,6 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: aliceblue;
-    box-sizing: border-box;
 }
 
 .presentacion {
@@ -584,7 +593,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    box-sizing: border-box;
 }
 
 .div-iconos-redes {
@@ -684,7 +692,6 @@ body {
         flex-direction: column;
         width: 100vw;
         height: auto;
-        box-sizing: border-box;
     }
 
     .cont-titulo {
@@ -695,7 +702,6 @@ body {
         width: 100px;
         height: 100PX;
         padding: 0;
-        margin: 0;
     }
 
     .div-titulo,
@@ -712,7 +718,6 @@ body {
     .div-main-content-img {
         width: 50%;
         height: 100%;
-        box-sizing: border-box;
     }
 
     .div-main-titulo {
@@ -733,7 +738,6 @@ body {
     .div-targets-actualizaciones {
         flex-direction: column;
         align-items: center;
-        box-sizing: border-box;
     }
 
     .target-actualizaciones {
@@ -744,14 +748,12 @@ body {
     .div-main-potenciadaIA {
         flex-direction: column;
         height: auto;
-        box-sizing: border-box;
     }
 
     .div-content-anunciado-pontenciadaIA,
     .div-pontenciadaIA-content-img {
         width: 100vw;
         text-align: center;
-        box-sizing: border-box;
     }
 
     .div-porcentajes {
@@ -814,7 +816,6 @@ body {
 
     .div-titulos-servicios {
         height: 40%;
-        box-sizing: border-box;
     }
 
     .titulo-servicios {
@@ -833,7 +834,6 @@ body {
 
     .div-targets {
         height: 60%;
-        box-sizing: border-box;
     }
 
     .target {
@@ -969,13 +969,11 @@ body {
     .div-formulario {
         height: auto;
         padding: 30px 0;
-        box-sizing: border-box;
     }
 
     .formulario {
         width: 90%;
         height: auto;
-        box-sizing: border-box;
         padding: 20px;
     }
 
