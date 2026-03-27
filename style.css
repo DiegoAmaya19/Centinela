@@ -415,27 +415,52 @@ body {
 }
 
 .div-main-potenciadaIA {
-    padding: 30px;
-    display: flex;
-    justify-content: justify;
     width: 100%;
     height: 100vh;
-    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
     background-color: aliceblue;
 }
 
 .div-content-anunciado-pontenciadaIA {
     width: 50%;
+    height: 100%;
+    padding-top: 5%;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-main-anunciado-potenciado-IA {
+    height: 100%;
+    width: 80%;
+}
+
+.div-title-main-anunciado {
+    height: 40%;
+    display: flex;
+    align-items: end;
 }
 
 .titulo-potenciadaIA {
     font-size: 40px;
 }
 
+.div-subtitulo-potenciadaIA {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
 .subtitulo-potenciadaIA {
     font-size: 17px;
+}
+
+.div-button-generar-reporte {
+    height: 20%;
+    display: flex;
+    align-items: start;
 }
 
 .button-generar-reporte {
@@ -452,30 +477,43 @@ body {
     width: 50%;
     padding: 10px;
     font-size: 12px;
+    display: flex;
+    align-items: center;
 }
 
 .div-beneficios {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     background-color: #E5E7EB;
-    padding: 10px;
+}
+
+.div-title-beneficios{
+    height: 50%;
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo-beneficios {
+    font-size: 3rem;
+    width: 80%;
     text-align: center;
-    padding-top: 100px;
-}
+}    
 
 .div-porcentajes {
     display: flex;
     justify-content: space-evenly;
+    height: 50%;
     width: 100%;
     padding-top: 20px;
 }
 
 .div-porcentaje {
+    height: 100%;
     width: 20%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .numero-porcentaje {
@@ -776,6 +814,21 @@ body {
         font-size: 18px;
     }
 
+}
+
+@media (min-width: 1500px) {
+
+    .titulo-potenciadaIA {
+        font-size: 60px;
+    }
+
+    .subtitulo-potenciadaIA {
+        font-size: 25px;
+    }
+
+    .button-generar-reporte {
+        font-size: 20px;
+    }
 }
 
 /* @media (max-width: 700px) {
