@@ -391,7 +391,7 @@ body {
     padding-left: 10px;
 }
 
-.div-description-actualizacion{
+.div-description-actualizacion {
     height: 20%;
     display: flex;
     align-items: center;
@@ -686,6 +686,98 @@ body {
     }
 }
 
+@media (min-width: 1500px) {
+
+    .titulo-actualizaciones {
+        line-height: 85px;
+        font-size: 6rem;
+    }
+
+    .subtitulo-actualizaciones {
+        font-size: 1.5rem;
+        padding-right: 30px;
+    }
+
+    .div-image-actualizacion-back {
+        width: 130px;
+        height: 130px;
+    }
+
+    .title-actualizacion {
+        font-size: 20px;
+    }
+
+    .description-actualizacion {
+        font-size: 18px;
+    }
+
+    .act-link-mas {
+        font-size: 25px;
+    }
+}
+
+/* Modiicacion de servicios */
+@media (min-width: 1500px) {
+
+    .h1-titulo {
+        line-height: 85px;
+        font-size: 6rem;
+    }
+
+    .p-parrafo {
+        font-size: 2rem;
+        padding-right: 30px;
+    }
+
+    .button-solicitud-demostracion {
+        font-size: 16px;
+    }
+
+    .div-servicios {
+        height: 100vh;
+    }
+
+    .div-titulos-servicios {
+        height: 40%;
+    }
+
+    .titulo-servicios {
+        height: 65%;
+        font-size: 6rem;
+    }
+
+    .subtitulo-servicios {
+        height: 35%;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+
+    .div-targets {
+        height: 60%;
+    }
+
+    .target {
+        width: 22%;
+        height: 70%;
+        border: #172559 solid 1px;
+        border-radius: 5px;
+    }
+
+    .tag-icon-back {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tag-titulo {
+        font-size: 25px;
+    }
+
+    .tag-descripcion {
+        font-size: 18px;
+    }
+
+}
+
 /* @media (max-width: 700px) {
 
     .nav {
@@ -794,56 +886,6 @@ body {
     }
 } */
 
-@media (min-width: 1500px) {
-
-    .h1-titulo {
-        line-height: 85px;
-        font-size: 6rem;
-    }
-
-    .p-parrafo {
-        font-size: 2rem;
-        padding-right: 30px;
-    }
-
-    .button-solicitud-demostracion {
-        font-size: 16px;
-    }
-
-    .div-servicios {
-        height: 100vh;
-    }
-
-    .div-titulos-servicios {
-        height: 40%;
-    }
-
-    .titulo-servicios {
-        height: 65%;
-        /* align-items: center; */
-        padding: 0;
-        font-size: 5rem;
-    }
-
-    .subtitulo-servicios {
-        height: 35%;
-        padding: 0;
-        font-size: 1.5rem;
-        align-items: start;
-    }
-
-    .div-targets {
-        height: 60%;
-    }
-
-    .target {
-        width: 22%;
-        height: 70%;
-        border: #172559 solid 1px;
-        border-radius: 5px;
-    }
-
-}
 
 /* @media (max-width: 1024px) {
 
