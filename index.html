@@ -29,7 +29,6 @@
                             <button>Servicios</button>
                         </a>
                     </div>
-
                     <div class="div-button">
                         <a href="#seccion-actualizaciones">
                             <button>Plataforma</button>
@@ -53,7 +52,8 @@
                 </div>
 
                 <div class="div-button-demo">
-                    <button class="button-demo">Solicitar Demo</button>
+                    <a href="#div-formulario"><button class="button-demo" href="#div-formulario">Solicitar
+                            Demo</button></a>
                 </div>
             </div>
         </nav>
@@ -326,14 +326,44 @@
             </div>
         </div>
     </div>
-    <div class="div-formulario-demostracion">
-        <div class="presentacion">
-            <h1 class="titulo-formulario">Solicite una Demostración</h1>
-            <h5 class="subtitulo-formulario">¿Tiene preguntas? Complete el formulario a continuación para ponerse en
-                contacto con nuestro equipo de expertos.</h5>
+    <div class="div-formulario-demostracion" id="div-formulario">
+        <div class="div-presentacion">
+            <div class="div-titulo-formulario">
+                <h1 class="titulo-formulario">
+                    Solicite una Demostración
+                </h1>
+            </div>
+            <div class="div-subtitulo-formulario">
+                <h5 class="subtitulo-formulario">
+                    ¿Tiene preguntas? Complete el formulario a continuación para ponerse en
+                    contacto con nuestro equipo de expertos.
+                </h5>
+            </div>
         </div>
         <div class="div-formulario">
-            <div class="formulario">
+            <form action="" class="formulario">
+                <div class="sec-primero">
+                    <div class="subsec">
+                        <label class="label">Nombre Completo</label>
+                        <input type="text">
+                    </div>
+                    <div class="subsec">
+                        <label class="label">Nombre de la Empresa</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="sec-segundo">
+                    <label class="label">Correo Electrónico de trabajo</label>
+                    <input type="email">
+                </div>
+                <div class="sec-tercero">
+                    <label class="label">Mensaje</label>
+                    <textarea id="mensaje" name="comentarios" rows="4" cols="50"
+                        placeholder="Escribe aquí tu mensaje...">
+                    </textarea>
+                </div>
+            </form>
+            <!-- <div class="formulario">
                 <div class="sec-primero">
                     <div class="subsec">
                         <label class="label">Nombre Completo</label>
@@ -352,7 +382,7 @@
                     <label class="label">Mensaje</label>
                     <input type="text">
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="div-button-form">
             <button class="button-enviar">Enviar solicitud</button>

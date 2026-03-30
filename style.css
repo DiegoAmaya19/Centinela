@@ -487,7 +487,7 @@ body {
     background-color: #E5E7EB;
 }
 
-.div-title-beneficios{
+.div-title-beneficios {
     height: 50%;
     width: 100%;
     padding-top: 10%;
@@ -500,7 +500,7 @@ body {
     font-size: 3rem;
     width: 80%;
     text-align: center;
-}    
+}
 
 .div-porcentajes {
     display: flex;
@@ -537,20 +537,19 @@ body {
 
 .div-formulario-demostracion {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: aliceblue;
 }
 
-.presentacion {
+.div-presentacion {
     width: 100%;
     height: 30%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 5%;
 }
 
 .titulo-formulario {
-    font-size: 45px;
-    padding: 1%;
+    font-size: 3rem;
 }
 
 .subtitulo-formulario {
@@ -560,14 +559,14 @@ body {
 
 .div-formulario {
     width: 100%;
-    height: 58%;
+    height: 55%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .formulario {
-    width: 50%;
+    width: 60%;
     height: 100%;
     background-color: #172559;
     color: white;
@@ -583,6 +582,7 @@ body {
 }
 
 .sec-segundo {
+    width: 50%;
     padding: 30px;
 }
 
@@ -603,10 +603,10 @@ body {
 
 .div-button-form {
     width: 100%;
-    height: 25%;
+    height: 15%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 10px;
 }
 
 .button-enviar {
