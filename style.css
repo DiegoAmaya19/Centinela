@@ -640,31 +640,45 @@ body {
 
 .div-end-contenedores {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
 }
 
+.content-end {
+    width: 20%;
+    height: 100%;
+}
+
+.title-centinela {
+    height: 30%;
+    display: flex;
+    align-items: end;
+}
+
+.div-parrafo-centinela {
+    height: 70%;
+    padding-top: 15px;
+}
+
 .div-iconos-redes {
+    padding-top: 15px;
     display: flex;
     align-items: center;
 }
 
 .icono-redes {
-    width: 20px;
-    height: 20px;
+    width: 10%;
+    height: auto;
     cursor: pointer;
     padding: 8px;
 }
 
-.content {
-    width: 20%;
-}
-
 .linea {
     height: 1px;
-    width: 95%;
+    width: 100%;
 }
 
 .footer {
@@ -755,7 +769,6 @@ body {
 } */
 
 /* Modificacione de div actualizaciones */
-
 @media (max-width: 900px) {
 
     /* 1. Reset de Alturas: Fundamental para que nada se encime */
@@ -948,10 +961,7 @@ body {
     }
 }
 
-/* @media (max-width: 900px) {
-    
-} */
-
+/* Modificacion de div actualizaciones */
 @media (min-width: 1500px) {
 
     .titulo-actualizaciones {
