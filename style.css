@@ -206,6 +206,7 @@ body {
     color: #555555;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -417,7 +418,8 @@ body {
 
 .div-main-potenciadaIA {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 60px 0px 60px 0px;
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
@@ -425,7 +427,7 @@ body {
 
 .div-content-anunciado-pontenciadaIA {
     width: 50%;
-    height: 100%;
+    min-height: 100%;
     padding-top: 5%;
     color: rgb(0, 0, 0);
     display: flex;
@@ -476,10 +478,11 @@ body {
 
 .div-pontenciadaIA-content-img {
     width: 50%;
-    padding: 10px;
-    font-size: 12px;
+    min-height: 100%;
+    padding: 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .div-beneficios {
@@ -751,23 +754,6 @@ body {
     }
 }
 
-/* @media (max-width: 900px) {
-
-    .div-main {
-        flex-direction: column;
-        min-height: 100vh;
-        justify-content: flex-start;
-    }
-} */
-
-/* @media (max-width: 700px) {
-
-    .div-main {
-        min-height: 700px;
-        min-width: 1000px;
-    }
-} */
-
 /* Modificacione de div actualizaciones */
 @media (max-width: 900px) {
 
@@ -777,10 +763,13 @@ body {
     .div-actualizaciones,
     .div-main-potenciadaIA,
     .div-beneficios,
-    .div-formulario-demostracion {
+    .div-formulario-demostracion,
+    .div-end {
         height: auto !important;
-        min-height: 100vh;
+        /* min-height: 100vh; */
         flex-direction: column;
+        scroll-margin-top: 200px;
+        min-width: 350px;
     }
 
     .nav {
@@ -788,6 +777,7 @@ body {
         min-width: 350px;
         height: auto;
         padding: 10px 0;
+        background-color: #5C658E;
     }
 
     .cont-div-nav {
@@ -852,13 +842,87 @@ body {
         padding-top: 200px;
     }
 
+    /* Seccion de div services */
+    .subtitulo-servicios {
+        padding: 0 10px;
+    }
+
+    .tag-icon-back {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-target-service {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div-tag-description {
+        padding-bottom: 5px;
+    }
+
+    .titulo-actualizaciones {
+        text-align: center;
+    }
+
+    .subtitulo-actualizaciones {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .div-description-actualizacion {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .div-subtitulo-potenciadaIA {
+        padding: 10px 0px;
+    }
+
+    .div-button-generar-reporte {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div-pontenciadaIA-content-img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .div-presentacion {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .div-subtitulo-formulario {
+        padding: 10px 10px;
+    }
+
+    .div-formulario {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* 6. Formulario */
+    .formulario {
+        width: 95%;
+        height: auto;
+    }
+
+    .div-button-form {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
     /* 3. Hero Section (Sección Principal) */
     .div-main-content-anunciado,
     .div-main-content-img,
-    .div-pontenciadaIA-content-img,
     .div-content-anunciado-pontenciadaIA {
         width: 100%;
-        /* Ocupan todo el ancho ahora */
         text-align: center;
     }
 
@@ -876,8 +940,7 @@ body {
 
     .button-solicitud-demostracion {
         margin-left: 0;
-        /* Centramos el botón */
-        width: 100%;
+        width: 90%;
     }
 
     /* 4. Servicios y Tarjetas */
@@ -903,7 +966,7 @@ body {
     .titulo-formulario {
         font-size: 2rem;
         height: auto;
-        padding: 20px 10px;
+        padding: 15px 20px;
     }
 
     /* 5. Sección de Beneficios (Porcentajes) */
@@ -916,12 +979,6 @@ body {
     .div-porcentaje {
         width: 80%;
         margin-bottom: 20px;
-    }
-
-    /* 6. Formulario */
-    .formulario {
-        width: 95%;
-        height: auto;
     }
 
     .sec-primero {
@@ -959,6 +1016,25 @@ body {
         height: 50px;
         right: 15px;
     }
+
+    .content-end {
+        width: 70%;
+        text-align: center;
+    }
+
+    .title-centinela {
+        justify-content: center;
+    }
+
+     .div-iconos-redes {
+        justify-content: center;
+    }
+
+    .icono-redes {
+        width: 40px;
+        margin: 0 10px;
+    }
+
 }
 
 /* Modificacion de div actualizaciones */
