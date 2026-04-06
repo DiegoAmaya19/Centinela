@@ -1,6 +1,7 @@
 // Seleccionamos los elementos
 const openButtons = document.querySelectorAll("[id^='btn-abrir']");
 const closeButtons = document.querySelectorAll(".cerrar-modal");
+const actualizacionesLinks = document.querySelectorAll("[id^='btn-act-']");
 
 // Función para abrir el modal correspondiente al botón
 openButtons.forEach((button) => {
@@ -15,6 +16,18 @@ openButtons.forEach((button) => {
         }
     });
 
+});
+
+// Función para abrir el modal correspondiente a las actualizaciones
+actualizacionesLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const modalId = link.id.replace("btn-act", "modal-act");
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.style.display = "block";
+        }
+    });
 });
 
 // Función para cerrar el modal al dar clic en la (X)
